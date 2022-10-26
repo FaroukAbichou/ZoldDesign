@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+
+}
+
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+li,a,button,p{
+  color: white;
+  font-family: Heiti SC;
+  font-weight: lighter;
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 5%;
+}
+.logo{
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav-links{
+  list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+hr {
+  height: 2px;
+  background-color: white;
+  border-color: white;
+
+
+
+}
+.CGA{
+  position: relative;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(bg.png);
+  background-size: cover;
+}
+.CGAtext{
+  background-image: url("cga.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 45px;
+
+  line-height: 100px;
+  margin-top: -10%;
+  margin-left: 10%;
+}
+.compass{
+   width: 100%;
+   max-width: 400px;
+   min-width: 100px;
+   margin-top: 70px;
+   margin-right: 150px;
+}
+
+
+.gd{
+  color:black;
+  -webkit-text-stroke: 1px white;
+}
+
+.latestworks h2{
+  text-align: left;
+  font-size: 70px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  letter-spacing: 20px;
+}
+.latestworks button{
+  font-size: 22px;
+  width: 250px;
+  height: 60px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  background-color: black;
+  border-color: white;
+
+}
+.latestworks nav{
+  position: relative;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.grid {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  margin: 100px auto 200px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: center;
+  grid-gap: 5px;
+}
+.box-content {
+  width: 200px;
+  height: 100px;
+  background: #333;
+}
+.aboutus{
+  background-image: url(bg.png);
+  background-size: cover;
+  padding-bottom:10px ;
+}
+.aboutus h2{
+  text-align: center;
+  font-size: 70px;
+  padding-left: 60px;
+  padding: 50px 0px 20px 0px;
+  letter-spacing: 20px;
+}
+.aboutus h3{
+  margin-top:20px ;
+  font-size: 25px;
+}
+.aboutus nav{
+  position: relative;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:70px ;
+  
+}
+.info{
+  border-color: white;
+  margin: 50px 10px;
+  padding-left: 0px;
+  text-align: center;
+}
+.aboutus .cent{
+  margin: 100px 20px 50px 20px;
+}
+
+.aboutus img{
+  width: 50%;
+  height: auto;
+}
+.contactus h2{
+  text-align: left;
+  font-size: 70px;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  letter-spacing: 20px;
+}
+
+.contactus p{
+  font-size: 22px;
+  margin: 5px;
+}
+
+.formm {
+  padding: 0 5% 0px 5%;
+  margin: 2% 5%;
+
+}
+
+.first {
+  width: 50%;
+  float: left;
+  padding: 2% 2%;
+}  
+.thr{
+  padding: 2% 2%;
+}
+.thr input{
+  padding: 5% 2%;
+  height: 120px;
+}
+
+input{
+  width: 100%;
+  height: 60px;
+}
+
+.contactus button{
+  margin: 3% 0 100px 0;
+  width: 100%;
+  height: 60px;
+  font-size: 22px;
+  background-color: black;
+  border:0.8px solid white;
+
+}
+.Guide{
+  margin-top:60px;
+  text-align: center;
+}
+.Guide hr{
+  margin: 10px auto;
+  width: 50px;
+  background-color: white;
+  border-color: white;
+}
+
+h1,h2,h3,h4{
+  color: white;
+  font-family: Heiti SC;
+  font-weight: lighter;
+  text-decoration: none;
+}
+footer{
+  margin-top:10%;
+  background-image: url(bg.png) ;
+  background-size: cover;
+}
+.footerlogo{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 50px 0;
+}
+.footerlogo p{
+  margin: 16px 5px;
+}
+.logo2{
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+  
+}
+.footerinfo{
+  text-align: center;
+
+}
+
+ .footerinfo p{
+  display: inline-block;
+  margin: 0 5% 0 5%;
+  font-size: 20px;
+
+}
+footer hr{
+  margin: 30px;
+}
+.nav-links2{
+  list-style: none;
+}
+.nav-links2 li{
+    display: inline-block;
+    padding: 0px 30px;
+}
