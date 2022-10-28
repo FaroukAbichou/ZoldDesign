@@ -6,37 +6,40 @@
     <title>ZoldDesign</title>
     <link rel="shortcut icon" href="zoldlogo.png" type="image/x-icon">
     <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+
   </head>
   <body>
-
+    <div id="home" class="headernav">
     <header>
       <img class="logo" src="zoldlogo.png" alt="logo" >
       <nav>
         <ul class="nav-links">
-          <li><a  href="#">HOME</a></li>
-          <li><a href="#">LATEST WORK</a></li>
-          <li><a href="#">ABOUT</a></li>
+          <li><a  href="#home">HOME</a></li>
+          <li><a href="#latestwork">LATEST WORK</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li class="contactusbotton"><a href="#contactus"><button>CONTACT US</button></a></li>
         </ul>
       </nav>
       
     </header>
-    <hr></hr>
+    <hr class="hr1"></hr>
     <main>
-      <div class="CGA">
+      <div  class="CGA">
           <div class="CGAtext">
             <h1 class="intro">Creative </br><a class="gd">Graphic Design</a></br>Agency</h1>
           </div>
-          <div class="comp">
+          <div class="link comp">
             <img src="Compass.png" class="compass">
           </div>
       </div>
-    
-      <div class="latestworks">
+    </div>
+      <div id="latestwork" class="latestworks">
         <h2>Latest Works</h2>
         <nav>
-          <button><p> Graphic Design</p></button>
-          <button><p>Web Development</p></button>
-          <button><p>Video Editing</p></button>
+          <button> Graphic Design</button>
+          <button>Web Development</button>
+          <button>Video Editing</button>
         </nav>
         <div class="grid">
           <div class="box1">
@@ -79,38 +82,38 @@
         </div>
       </div>
 
-      <div class="aboutus">
+      <div id="about" class="aboutus">
         <div class="in">
         <h2>About Us</h2>
         <nav>
-        <fieldset>
-          <div class="info">
+        <div>
+          <div class="link info">
             <img src="Idea.png" alt="Team Work">
-            <h3>Team Work</h3><br>
-            <p>texttextexttext<br>texttexttextextteexttextt<br>exttexttexttextexttex<br>ttexttexttexttexttextexttextt<br>textexttttexttexttexttexexttext<br>textexttextttttextexttexext<br>texttexext</p>
+            <h4>Team Work</h4><br>
+            <p>texttex exttex ttext textte xtextt eexttext texttex ttexttextexttex ttexttext texttext textext tex tt textex ttttextt exttext texextt extte xtexttexttt ttextex ttexexttextte xext</p>
           </div>
-        </fieldset>
-        <fieldset class="cent">
-          <div class="info">
+        </div>
+        <div class="cent">
+          <div class="link info">
             <img src="Comments.png" alt="Communication">
-            <h3>Communication</h3><br>
-            <p>texttextexttext<br>texttexttextextteexttextt<br>exttexttexttextexttex<br>ttexttexttexttexttextexttextt<br>textexttttexttexttexttexexttext<br>textexttextttttextexttexext<br>texttexext</p>
+            <h4>Communication</h4><br>
+            <p>texttex exttex ttext textt extextt eexttext texttex ttexttextexttex ttexttext texttext textext tex tt textex ttttextt exttext texextt extte xtexttexttt ttextex ttexexttextte xext</p>
             
           </div>
-        </fieldset>
-        <fieldset>
-          <div class="info">
+        </div>
+        <div>
+          <div class="link info">
             <img src="Clock.png" alt="Quick Work">
-            <h3>Quick work</h3><br>
-            <p>texttextexttext<br>texttexttextextteexttextt<br>exttexttexttextexttex<br>ttexttexttexttexttextexttextt<br>textexttttexttexttexttexexttext<br>textexttextttttextexttexext<br>texttexext</p>
+            <h4>Quick work</h4><br>
+            <p>texttex exttex ttext textt extextt eexttext texttex ttexttextexttex ttexttext texttext textext tex tt textex ttttextt exttext texextt extte xtexttexttt ttextex ttexexttextte xext</p>
             
           </div>
-        </fieldset>
+        </div>
         </nav>
       </div>
       </div>
       <br>
-      <div class="contactus">
+      <div id="contactus" class="contactus">
        
       <div class="contactustop">
         <h2>Contact Us</h2>
@@ -137,8 +140,10 @@
 
         <div class ="thr">
           <p>Message</p>
-          <input type="textarea">
+          <textarea></textarea>
+          <div class="bttn">
           <button type="submit">Submit</button>
+          </div>
         </div>
 
       </div>
@@ -158,14 +163,14 @@
       <div class="footerinfo">
         <p class="numb">+216 24 800 355</p>
         <p class="gmail">ZoldDesign@gmail.com</p>
-        <p class="numb">Tunis, Sousse, Sahloul 3</p>
+        <p class="numb">Sousse,Sahloul3</p>
       </div>
       <hr>
       <nav>
         <ul class="nav-links2">
-          <li><a  href="#">HOME</a></li>
-          <li><a href="#">LATEST WORK</a></li>
-          <li><a href="#">ABOUT</a></li>
+          <li><a  href="#home">HOME</a></li>
+          <li><a href="#latestwork">LATEST WORK</a></li>
+          <li><a href="#about">ABOUT</a></li>
         </ul>
       </nav>
     </footer>
