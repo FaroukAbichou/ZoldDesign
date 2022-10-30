@@ -17,7 +17,8 @@ body {
 
 li,a,button,p{
   color: white;
-  font-family: Heiti SC;
+  font-family: Heiti SC ;
+  font-weight: 100;
   font-weight: lighter;
   text-decoration: none;
 }
@@ -55,6 +56,7 @@ header{
 .nav-links button:hover{
   color: white;
   background-color: black;
+  text-shadow: #ffffff 0px 0px 10px ,0px 0px 10px;
   border-color: white;
   cursor: pointer;
 }
@@ -96,7 +98,7 @@ hr {
   background-image: url("cga.png");
   background-size: cover;
   background-repeat: no-repeat;
-  font-size:3vw;
+  font-size:3.5vw;
   margin-top: -10%;
   margin-left: 10%;
   color: #ffffff;
@@ -106,9 +108,8 @@ hr {
 
 
 .compass{
-   width: 30vw;
-   margin-top: 70px;
-   margin-right: 10vw;
+   width: 25vw;
+   margin: 6vw 10vw 4vw 0vw;
 }
 
 .link {
@@ -159,12 +160,11 @@ hr {
 
 
 .latestworks button{
-  font-size: 1.9vw;
+  font-size:max(1.4vw,9px);
   width: 30vw;
   height: 5vw;
   display: inline-block;
-  margin: 0vw 6vw 0vw 6vw;
-  padding: 1vw;
+  margin: 0vw 4vw 0vw 4vw;
   background-color: black;
   border-color: white;
 
@@ -196,54 +196,6 @@ hr {
   align-items: center;
   margin-bottom: 40px;
 }
-.containerlw{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-
-.wrapper {
-  display: grid;
-  grid-template-columns:  20vw 20vw 20vw;
-  grid-template-rows: 20vw 20vw 20vw;
-  color: #444;
-}
-
-.box {
-  border: #fff solid;
-  color: #fff;
-  padding: 2vw;
-  font-size: 2vw;
-
-}
-
-.a {
-  grid-column: 1 / 3;
-  grid-row: 1;
-}
-.b {
-  grid-column: 3 ;
-  grid-row: 1 / 3;
-}
-.c {
-  grid-column: 1 ;
-  grid-row: 2 ;
-}
-.d {
-  grid-column: 2;
-  grid-row: 2;
-}
-.e {
-  grid-column: 4 ;
-  grid-row: 1 ;
-}
-.f {
-  grid-column: 4;
-  grid-row: 2;
-margin: 3vw;}
 
 .aboutus{
   background-image: url(bg.png);
